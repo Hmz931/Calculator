@@ -40,6 +40,6 @@ openPar.onclick = () => screenResult.innerHTML += openPar.textContent;
 closePar.onclick = () => screenResult.innerHTML += closePar.textContent;
 del.onclick = () => screenResult.innerHTML = screenResult.innerHTML.substring(0,screenResult.innerHTML.length-1);
 reset.onclick = () => screenResult.innerHTML = "";
-equal.onclick = () => screenResult.innerHTML = eval(screenResult.innerHTML).toLocaleString();
+equal.onclick = () => screenResult.innerHTML = eval(screenResult.innerHTML);
 
 
