@@ -9,7 +9,7 @@ for(let i = 0; i < numbArray.length; i++ ){
      } else if (numbArray[i].innerHTML == "DEL" ){
         numbArray[i].onclick = () => screenResult.innerHTML = screenResult.innerHTML.substring(0,screenResult.innerHTML.length-1);
      } else if(numbArray[i].innerHTML == "=" ) {
-        numbArray[i].onclick = () => screenResult.innerHTML = eval(screenResult.innerHTML);
+        numbArray[i].onclick = () => screenResult.innerHTML = eval(screenResult.innerHTML).toFixed(2);
      } else {
          numbArray[i].onclick = () => screenResult.innerHTML += numbArray[i].textContent;
     }
