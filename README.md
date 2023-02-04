@@ -1,2 +1,2 @@
 # Calculator
-A mini Project for building calculator using HTML/CSS and javascript.
+This is a mini project for building calculator using HTML/CSS and javascript.
