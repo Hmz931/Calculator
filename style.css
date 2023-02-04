@@ -58,5 +58,17 @@
 }
 
 #reset {
-    background: rgb(192, 40, 40);
+    background: rgb(226, 12, 12);
+}
+
+#reset:hover {
+    background: rgb(184, 39, 39);
+}
+
+#equal {
+    background: rgb(48, 65, 223);
+}
+
+#equal:hover {
+    background: rgb(38, 47, 134);
 }
