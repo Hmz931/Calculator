@@ -4,7 +4,7 @@
     background: linear-gradient(to bottom right, rgba(182, 173, 149, 0.979) 0%, rgb(187, 143, 47) 35%, rgb(180, 178, 39) 100%);
 
     width: 460px;
-    height: 60000;
+    height: 550px;
     display:grid;
     margin: 50px auto;
     box-shadow: 10px 5px 55px rgb(123, 130, 133);
@@ -46,7 +46,7 @@
     border-radius: 9px;
     background: linear-gradient(to bottom right, rgba(215, 207, 247, 0.979) 0%, rgb(144, 151, 182) 35%, rgb(212, 223, 233) 100%);
     cursor: pointer;
-    box-shadow: 10px 5px 2px rgb(123, 130, 133);
+    box-shadow: 10px 5px 55px rgb(123, 130, 133);
 }
 
 .num:hover, .num:active{
